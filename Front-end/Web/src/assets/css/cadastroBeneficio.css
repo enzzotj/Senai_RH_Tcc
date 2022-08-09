@@ -1,0 +1,259 @@
+.headerF{
+    display: block;
+}
+.navbarF{
+    display: none;
+}
+
+.container_cadastrarBeneficio {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container_forms_cadastroBeneficio_g2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9rem;
+}
+
+.box_img_cadastroBeneficio_g2 {
+    margin-top: 1.875rem;
+}
+
+.box_img_cadastroaBeneficio_g2 img {
+    margin-top: 1.875rem;
+}
+
+.box_forms_cadastroBeneficio_g2 {
+    height: 70vh;
+    margin-bottom: 3rem;
+}
+
+.title_cadastroBeneficio_g2 {
+    display: flex;
+    justify-content: center;
+}
+
+.title_cadastroBeneficio_g2 h1 {
+    font-size: 3.1em;
+    margin-bottom: 2rem;
+}
+
+.box_forms_cadastroBeneficio_g2 input {
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 13.5vw;
+    height: 6vh;
+    background-color: transparent;
+    outline: 0;
+    border: 1px #B3B3B3 solid;
+    border-radius: 15px;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+    color: #B3B3B3;
+    font-weight: bold;
+}
+
+.box_forms_cadastroBeneficio_g2 input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url("../img/iconeCalendario.svg");
+}
+
+.box_forms_cadastroBeneficio_g2::placeholder {
+    width: 6, 753458096013019vw;
+    height: 3, 8442622950819674vh;
+}
+
+.box_forms_cadastroBeneficio_g2 label {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.descricao_g2{
+    width: 100% !important;
+}
+
+
+.box_inputs_cadastroBeneficio_g2 {
+    display: flex;
+    justify-content: center;
+}
+
+.div_input_1_g2{
+    display: flex;
+    justify-content: center;
+}
+
+.container_cadastroBeneficio_inputs_g2 {
+    margin-right: 2rem;
+}
+
+.img_file_cadastro_desconto_g2{
+    background-color: #636466;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
+
+.label_arquivo_cadastroBeneficio_g2 {
+    width: 13.5vw;
+    height: 6vh;
+    color: white;
+    border-radius: 15px;
+    background-color: #636466;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inputCadastroBeneficioSelect_g2 {
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 13.5vw;
+    height: 6vh;
+    background-color: transparent;
+    outline: 0;
+    border: 1px #B3B3B3 solid;
+    border-radius: 15px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+    color: #B3B3B3;
+    font-weight: bold;
+}
+
+.input_file_cadastroBeneficio_g2 {
+    display: none;
+}
+
+.btn_cadastroBeneficio_g2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.botaoCadastroBeneficio_g2{
+    width: 13.5vw;
+    height: 6vh;
+    border-radius: 15px;
+    background-color: #C20004;
+    border: none;
+    cursor: pointer;
+    color: #f2f2f2;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.botaoCadastroBeneficio_g2:hover {
+    background-color: transparent;
+    border: #C20004 1px solid;
+    border-radius: 15px;
+    color:  #C20004;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input_g2_cadastro_cashes {
+    margin-top: 1rem;
+}
+
+.img_cadastroBeneficio_g2{
+    margin-left: 4.5rem;
+}
+
+@media screen and (max-width: 1300px){
+    .img_cadastroBeneficio_g2{
+        width: 40vw;
+    }
+
+    .box_forms_cadastroBeneficio_g2 input{
+        width: 18.5vw;
+    }
+    .label_arquivo_cadastroBeneficio_g2{
+        width: 18.5vw;
+    }
+    .inputCadastroBeneficioSelect_g2{
+        width: 18.5vw;
+    }
+    .botaoCadastroBeneficio_g2{
+        width: 17.5vw;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .img_cadastroBeneficio_g2{
+        width: 35vw;
+    }
+
+    .box_forms_cadastroBeneficio_g2 input{
+        width: 19.5vw;
+    }
+    .label_arquivo_cadastroBeneficio_g2{
+        width: 19.5vw;
+    }
+    .inputCadastroBeneficioSelect_g2{
+        width: 19.5vw;
+    }
+    .botaoCadastroBeneficio_g2{
+        width: 18.5vw;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .img_cadastroBeneficio_g2{
+        width: 32vw;
+    }
+
+    .box_forms_cadastroBeneficio_g2 input{
+        width: 20.5vw;
+    }
+    .label_arquivo_cadastroBeneficio_g2{
+        width: 20.5vw;
+    }
+    .inputCadastroBeneficioSelect_g2{
+        width: 20.5vw;
+    }
+    .botaoCadastroBeneficio_g2{
+        width: 19.5vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .img_cadastroBeneficio_g2{
+        display: none;
+    }
+
+    .container_forms_cadastroBeneficio_g2{
+        justify-content: center;
+    }
+
+    .box_forms_cadastroBeneficio_g2 input{
+        width: 31.5vw;
+    }
+    .label_arquivo_cadastroBeneficio_g2{
+        width: 31.5vw;
+    }
+    
+    .inputCadastroBeneficioSelect_g2{
+        width: 31.5vw;
+    }
+
+
+    .botaoCadastroBeneficio_g2{
+        width: 30.5vw;
+    }
+    .img_file_cadastro_empresa_g2{
+        margin-left: 1rem;
+    }
+    .title_cadastroBeneficio_g2 h1{
+        font-size: 2.1em;
+    }
+
+    .headerF{
+        display: none;
+    }
+    .navbarF{
+        display: block;
+    }
+}
